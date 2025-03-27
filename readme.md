@@ -61,7 +61,7 @@ https://github.com/MraDonkey/DMAD.git
 cd DMAD
 ```
 
-2. Using ```pwd``` to get your current directory and copy it to ``base_path`` in ```record.py```.
+2. Use ```pwd``` to get your current directory and copy it to ``base_path`` in ```record.py```.
 
 
 3. Create Conda Environment and Install Packages.
