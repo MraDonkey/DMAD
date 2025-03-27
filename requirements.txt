@@ -1,0 +1,10 @@
+torch==2.6.0
+llava==0.0.1.dev0
+datasets==3.4.1
+openai==1.68.2
+Pillow==11.1.0
+protobuf==5.29.4
+transformers==4.37.0
+requests==2.32.3
+SentencePiece==0.2.0
+accelerate==1.5.2
