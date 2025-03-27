@@ -232,7 +232,7 @@ python main_DMAD.py  --model  <model_name>  --google_api_key  <your_api_key>  --
 
 You can test the performance with
 ```
-python test.py  --model  <model_name>  --dataset  --dataset  <dataset_name>  --reasoning  <strategy_name>
+python test.py  --model  <model_name>  --dataset  <dataset_name>  --reasoning  <strategy_name>
 ```
 
 Results on MM-Vet will be saved in the folder ```mm_vet_jsons```, you can evaluate it with GPT-4 on their website [https://huggingface.co/spaces/whyu/MM-Vet_Evaluator].
