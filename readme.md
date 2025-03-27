@@ -6,7 +6,7 @@ Large Language Models (LLMs) have seen significant progress but continue to stru
 
 ## 🔎 What is mental set?
 
-Our idea is inspired by the psychological theory of mental set. It refers to the cognitive tendency to approach problems in a particular way based on past experiences, learned behaviors, or established habits. While mental sets can enable quick solutions to familiar problems, they often hinder the ability to explore diverse approaches, particularly when faced with new or more complex tasks. It may be difficult to solve a problem in the mental set pattern. However, if thinking in a different way, it may surprisingly find it is easy to address the problem. 
+Our idea is inspired by the psychological theory of mental set. It refers to the cognitive tendency to approach problems in a particular way based on past experiences, learned behaviors, or established habits. While mental sets can enable quick solutions to familiar problems, they often hinder the ability to explore diverse approaches, particularly when faced with new or more complex tasks. It may be difficult to solve a problem in the mental set pattern. However, if thinking in a different way, one may surprisingly find it is easy to address the problem. 
 
 We observe that LLMs have an analogous phenomenon. MAD with a fixed prompting strategy may always get wrong answers to a problem, while changing to another one can correctly solve it. This applies to MAD with each single prompting strategy.
 
