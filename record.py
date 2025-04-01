@@ -98,7 +98,7 @@ def extract_answer(output = None, dataset = "ScienceQA"):
 def find_most_common_elements(input_list):
     input_list = [input for input in input_list if input != None]
     if len(input_list) == 0:
-        return None
+        return [None], 0
     counter = Counter(input_list)
     max_count = max(counter.values())
     most_common_elements = [element for element, count in counter.items() if count == max_count]
