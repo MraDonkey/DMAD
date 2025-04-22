@@ -43,7 +43,7 @@ def create_ccot_create_scene_graph_prompt(question, options = None, lecture = No
 
 def create_ccot_answer_with_scene_graph_prompt(scene_graph, question, options = None, lecture = None, context = None):
     prompt = prompt_ccot_answer_with_scene_graph.format(scene_graph = scene_graph)
-    prompt = 'Question:\n' + question + '\n\n'
+    prompt += 'Question:\n' + question + '\n\n'
     if options != None:
         prompt += create_context(context)
         prompt += create_options(options)
